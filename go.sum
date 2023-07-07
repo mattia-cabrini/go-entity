@@ -1,0 +1,4 @@
+github.com/mattia-cabrini/go-utility v0.0.1 h1:byLXzElbxXSQRuRAgWjk6kRL/f1lUyPeS4JqOfGtd5Y=
+github.com/mattia-cabrini/go-utility v0.0.1/go.mod h1:1Yq7aPSjFyiwz1aDzbeYHXSqVjk65gbOxEJqeo3IP/I=
+github.com/mattn/go-sqlite3 v1.14.17 h1:mCRHCLDUBXgpKAqIKsaAaAsrAlbkeomtRFKXh2L6YIM=
+github.com/mattn/go-sqlite3 v1.14.17/go.mod h1:2eHXhiwb8IkHr+BDWZGa96P6+rkvnG63S2DGjv9HUNg=
