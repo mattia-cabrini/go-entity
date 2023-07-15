@@ -58,7 +58,7 @@ func getSelectAllQuery[T any](fields []int, obj T, table string, schema string) 
 func decodeRow[T any](rows *sql.Rows, obj *T, fields []int) (err error) {
 	var vo = reflect.ValueOf(obj).Elem()
 	var to = reflect.TypeOf(*obj)
-	var dest = make([]interface{}, len(fields))
+	var dest = make([]any, len(fields))
 
 	for i, field := range fields {
 		if v, b := utility.TypeDefault(vo.Field(field).Kind()); b {
